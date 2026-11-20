@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+  
+  <article xml:id="syllabus" label="syllabus">
+    <title>Syllabus</title>
+    <subtitle>Math <custom ref="courseno"/> <ndash/> <custom ref="sectionno"/> <ndash/> <custom ref="term"/> <custom ref="year"/></subtitle>
+
+    <xi:include href="./frontmatter.ptx" />
+    <xi:include href="./contact_information/main.ptx" />
+    <xi:include href="./course_information/main.ptx"/>
+    <xi:include href="./evaluation/main.ptx"/>
+    <xi:include href="./course_policies/main.ptx"/>
+    <xi:include href="./student_services/main.ptx"/>
+    <xi:include href="./schedule/main.ptx"/>
+  </article>
+</pretext>
+

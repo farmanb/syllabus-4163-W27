@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frontmatter xml:id="frontmatter">
+  <bibinfo>
+    <author>
+      <personname><custom ref="firstname"/> <custom ref="lastname"/></personname>
+      <department><custom ref="department"/></department>
+      <institution><custom ref="institution"/></institution>
+    </author>
+    <date>
+      <today />
+    </date>
+    <website>
+      <custom ref="website"/>
+    </website>
+
+    <copyright>
+      <year>2020<ndash />2026</year>
+      <holder>Blake Farman</holder>
+      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      </shortlicense>
+    </copyright>
+  </bibinfo>
+  <titlepage>
+    <titlepage-items/>
+  </titlepage>
+</frontmatter>

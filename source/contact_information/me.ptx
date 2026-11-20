@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<introduction>
+  <p>
+    <dl>
+      <li>
+	<title>Professor</title>
+	<p><custom ref="honorific"/> <custom ref="firstname"/> <custom ref="lastname"/></p>
+      </li>
+      <li>
+	<title>Phone Number</title> 
+	<p><custom ref="phone"/></p>
+      </li>
+      <li>
+	<title>Email Address</title> 
+	<p> <email><custom ref="email"/></email></p>
+      </li>
+      <li>
+	<title>Website</title> 
+	<p><custom ref="website"/></p>
+      </li>
+      <li>
+	<title>Office</title> 
+	<p><custom ref="office"/></p>
+      </li>
+    </dl>
+  </p>
+</introduction>

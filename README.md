@@ -1,0 +1,127 @@
+# Syllabus Template
+
+This is a [PreTeXt](https://pretextbook.org/documentation.html) syllabus template for courses that use a weighted average grading scheme.
+
+The course policies and student services sections are written for **Louisiana Tech University** — they cite University Policy 2206, the Louisiana Tech Academic Honor Code, and Louisiana Tech's counseling, disability, emergency-notification, help-desk, and tutoring resources. The template is usable elsewhere, but those sections (and the branding described under [Branding and personal defaults](#branding-and-personal-defaults)) have to be rewritten first.
+
+## Layout
+
+```
+project.ptx              PreTeXt project manifest (web, print, scorm targets)
+publication/             Publication file: chunking, theme, and version flags
+assets/                  Logos and favicons
+source/
+  main.ptx               Document root; XIncludes every section below
+  course-vars.xml        Per-course values (see below)
+  docinfo.ptx            Brand logo
+  frontmatter.ptx        Author, copyright, license
+  contact_information/   Instructor info, office hours, email etiquette
+  course_information/    Description, topics, prerequisites, SLOs, methods
+  evaluation/            Weights, grading scale, exams, homework, quizzes, engagement
+  course_policies/       Textbook, attendance, behavior, late work, make-ups, instructor absence, honor code, AI use
+  student_services/      Disability, counseling, ENS, withdrawal, LMS help, tutoring
+  schedule/              make_schedule.py and the generated main.ptx table
+```
+
+## Customizing the syllabus
+
+Most per-course details are defined in [`source/course-vars.xml`](source/course-vars.xml), which the publication file names as its customizations file. Edit the values there to set:
+
+- the course number, section, term, and year;
+- the instructor's honorific, first and last name, phone, email, website, and office;
+- the department and institution (used on the title page);
+- the textbook title, author, edition, and ISBN;
+- the two exam dates, the final exam date, and the drop-with-a-`W` deadline.
+
+Each value is a `<custom name="...">` element, and PreTeXt substitutes it for every `<custom ref="..."/>` in the source, so editing it in one place updates every section that references it.
+A value may contain markup; for example, `website` holds a complete `<url>` element, since a custom value cannot be used inside an attribute.
+To add a value, add a `<custom name="...">` to `course-vars.xml` and reference it with `<custom ref="..."/>`.
+
+The remaining placeholder prose should be filled in directly in the corresponding files under `source/`:
+
+| File | Contains |
+| --- | --- |
+| [`course_information/course_description.ptx`](source/course_information/course_description.ptx) | Course description |
+| [`course_information/course_topics.ptx`](source/course_information/course_topics.ptx) | Course topics |
+| [`course_information/prereqs.ptx`](source/course_information/prereqs.ptx) | Prerequisites |
+| [`course_information/student_learning_outcomes.ptx`](source/course_information/student_learning_outcomes.ptx) | Student learning outcomes |
+| [`course_information/instructional_methods.ptx`](source/course_information/instructional_methods.ptx) | Delivery mode (defaults to face-to-face lecture) |
+| [`contact_information/office_hours.ptx`](source/contact_information/office_hours.ptx) | Office-hour days and times |
+| [`evaluation/weights.ptx`](source/evaluation/weights.ptx) | Grade categories and weights (defaults: homework 30%, two exams 20% each, final 30%) |
+| [`evaluation/grading_scale.ptx`](source/evaluation/grading_scale.ptx) | Letter-grade cutoffs (defaults to a straight 90/80/70/60 scale) |
+
+The evaluation and policy sections (`exams.ptx`, `homework.ptx`, `quizzes.ptx`, `engagement.ptx`, `late.ptx`, `attendance.ptx`, `behavior.ptx`, `make-up.ptx`, `instructor_absence.ptx`, `ai.ptx`) ship with working default prose. Read them before publishing — they state specific policies, such as late work not being accepted and academic dishonesty resulting in a grade of F for the course.
+
+### Branding and personal defaults
+
+A few values are hard-coded rather than drawn from `course-vars.xml`. Change them when adopting the template:
+
+- [`source/frontmatter.ptx`](source/frontmatter.ptx) — copyright holder and years.
+- [`source/docinfo.ptx`](source/docinfo.ptx) — the brand logo and the URL it links to.
+- [`assets/images/`](assets/images) — the Louisiana Tech logos, including `logo.png` referenced by `docinfo.ptx`.
+- [`publication/publication.ptx`](publication/publication.ptx) — the HTML theme and its primary colors (currently the `boulder` theme in Louisiana Tech blue and red).
+
+## Building
+
+This is a standard PreTeXt project; [`requirements.txt`](requirements.txt) pins the PreTeXt-CLI version to build with. With the CLI installed:
+
+```sh
+pip install -r requirements.txt
+pretext build          # build the default target (web)
+pretext view           # preview in a browser
+```
+
+[`project.ptx`](project.ptx) defines three targets: `web` (HTML), `print` (PDF), and `scorm` (HTML packaged for an LMS). Build one at a time with `pretext build web`, and so on. See the [PreTeXt documentation](https://pretextbook.org/documentation.html) for installation and deployment details.
+
+Two conveniences come with the repo:
+
+- [`.devcontainer/devcontainer.json`](.devcontainer/devcontainer.json) lets the project be edited and built in GitHub Codespaces without a local install.
+- [`.github/workflows/pretext-cli.yml`](.github/workflows/pretext-cli.yml) builds the project on every pull request (and on demand via *Run workflow*), uploading the staged site as an artifact. It also deploys to Cloudflare Pages when the `CLOUDFLARE_PROJECT_NAME` repository variable is set, and to GitHub Pages when `PTX_ENABLE_DEPLOY_GHPAGES` is `yes` and the run is on the default branch. Building on pushes to `main` is commented out in that file.
+
+## Schedule
+
+Use the utility `make_schedule.py` to generate a skeleton schedule. It writes `main.ptx` as a single table with one row per class meeting and columns for Date, Topic, and Homework, with the placeholders "Material" and "Homework" in each row. Thin rules separate days and heavy rules separate weeks, and the usual "the instructor reserves the right to modify the schedule" notice is part of the table caption.
+
+The script writes `main.ptx` next to itself in `source/schedule/`, so it can be run from anywhere. It refuses to overwrite an existing `main.ptx` unless you pass `--force`, since that file holds the hand-entered schedule:
+
+```sh
+python3 source/schedule/make_schedule.py START END DAYS [--no-class DATES] [--force]
+```
+
+- `START`, `END` — quarter start/end dates as `M/D/YYYY` (inclusive).
+- `DAYS` — meeting days, given either as space/comma-separated names (`"Mon Wed"`, `"Tue, Thu"`) or as a compact code string (`"MWF"`, `"TR"`, `"TTh"`, `"MTWRF"`). Day letters are `M T W R F` (with `R` = Thursday) plus `Sa`/`Su` for the weekend.
+- `--no-class` — optional space/comma-separated `M/D/YYYY` dates to skip (e.g. holidays). Because the first three arguments are positional, this flag has to come after them.
+- `--force` — overwrite an existing `main.ptx`.
+
+Examples:
+
+```sh
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "Mon Wed"
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "MWF" --no-class 3/27/2026,4/10/2026
+python3 source/schedule/make_schedule.py 3/12/2026 6/2/2026 "TTh" --force
+```
+
+Weeks are grouped by calendar week (Monday through Sunday), so a term that begins mid-week still starts with a short first week.
+
+After generating the skeleton, replace each day's "Material" and "Homework" placeholders. Two conventions keep the PDF build looking right: text that may need to wrap should sit inside a `<p>` (PreTeXt only wraps table cells in LaTeX when they contain a paragraph), and a day with two topics should use two `<line>` elements instead, which keeps them on tight consecutive lines. Delete the Homework cell's paragraph to leave it blank.
+## Optional sections (version flags)
+
+Several sections are conditional. They are tagged in the source with a `component` attribute and are only rendered when that component is listed in the `<version include="…"/>` element in [`publication/publication.ptx`](publication/publication.ptx). To turn a section on or off, add or remove its flag from that list.
+
+| Flag | Controls |
+| --- | --- |
+| `graduate` | Extra expectations for cross-listed 5XXX/6XXX courses, in the homework and engagement sections. |
+| `exams` | Exams section and make-up policy. |
+| `engagement` | Engagement/participation statement. |
+| `homework` | Homework section. |
+| `quizzes` | Quizzes section. |
+| `BARC` | BARC university tutoring resources. |
+| `mathclub` | Math Club tutoring resources. |
+
+`BARC` and `mathclub` are off by default; enable them only for service-level courses where tutoring is available through those resources.
+
+Turning a section off hides its prose but not its weight — remove the matching row from [`evaluation/weights.ptx`](source/evaluation/weights.ptx) as well, and adjust the remaining weights so they still total 100%.
+
+## License
+
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). See [`LICENSE`](LICENSE) for the full text.

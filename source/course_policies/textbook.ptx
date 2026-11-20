@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="textbook" label="textbook">
+  <title>Textbook</title>
+  <assemblage xml:id="required_textbook">
+    <title>Required Textbook</title>
+    <p>
+      <pubtitle><custom ref="book"/></pubtitle>, <custom ref="edition"/> edition, by <custom ref="author"/>, <init>ISBN</init> <custom ref="ISBN"/>.
+    </p>
+  </assemblage>
+
+</subsection>
