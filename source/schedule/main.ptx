@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="schedule" label="schedule">
   <title>Schedule</title>
+  <p>
+    In the Homework column, the problems listed after <q>Present</q> are the presentation problems for the next class meeting, and those marked with an asterisk are Tier 2 problems for the <xref ref="portfolio" text="title"/>.
+  </p>
+  <p component="graduate">
+    The problems listed after <q>Graduate, present</q> are the presentation problems for graduate students, who present these problems in place of those listed after <q>Present</q>.
+  </p>
   <table xml:id="schedule-table">
     <title>Weekly Schedule (the instructor reserves the right to modify the schedule as needed)</title>
     <tabular width="100%" halign="left" valign="top" top="minor">
@@ -13,104 +19,147 @@
         <cell>Homework</cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Mar 11</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Dec 3</cell>
+        <cell>
+          <line>6.1 Prime and Maximal Ideals</line>
+          <line>6.2 Primes and Irreducibles</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>6.3, <section-mark/><nbsp/>6.5, and Proposition 6.33 in <section-mark/><nbsp/>6.4; Exercises 6.1, 6.7, 6.11, 6.15, 6.16, 6.20</p><p>Present: Thm 6.4*, 6.9*, 6.23, 6.26*; Prop 6.30; Ex 6.11</p><p component="graduate">Graduate, present: Ex 6.2, 6.8, 6.12*, 6.13*</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Mar 16</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Dec 8</cell>
+        <cell>
+          <line>6.3 Euclidean Domains and PIDs</line>
+          <line>6.4 PIDs and UFDs (Proposition 6.33)</line>
+          <line>6.5 The Field of Fractions of an Integral Domain</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>7.2; Exercises 6.10, 6.17, 6.18, 6.26, 6.28, 6.30</p><p>Present: Cor 7.10; Prop 7.9*, 7.15; Ex 7.2, 7.14*</p><p component="graduate">Graduate, present: Ex 6.21*, 6.25*, 6.31, 6.32*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Mar 18</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Dec 10</cell>
+        <cell>
+          <line>7.2 The Polynomial Ring with Coefficients in a Field</line>
+          <line>7.3 Irreducibility in Polynomial Rings (Propositions 7.14, 7.15)</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>12.1; Exercises 7.1, 7.2, 7.6, 7.8, 7.13, 7.14</p><p>Present: Lem 12.2; Thm 12.3*; Prop 12.4, 12.5, 12.7*; Ex 12.1</p><p component="graduate">Graduate, present: Ex 7.9*, 7.10, 7.15, 7.19*, 7.20</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Mar 23</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Dec 15</cell>
+        <cell>
+          <line>12.1 The Index of a Subgroup, and Lagrange's Theorem</line>
+          <line>Finite subgroups of <m>k^*</m> are cyclic (Theorem 10.24)</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>13.1, <section-mark/><nbsp/>13.2; Exercises 12.1, 12.2, 7.17</p><p>Present: Lem 13.7; Ex 13.5, 13.4*; Prop 13.13*; Ex 13.7</p><p component="graduate">Graduate, present: Ex 10.8, 10.26, 12.3*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Mar 25</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Dec 17</cell>
+        <cell>
+          <line>13.1 Fields and Homomorphisms of Fields</line>
+          <line>13.2 Finite Extensions and the Degree of an Extension</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>13.3; Exercises 13.4, 13.5, 13.6, 13.7, 13.8</p><p>Present: Prop 13.24; Ex 13.9, 13.12*, 13.15*, 13.16</p><p component="graduate">Graduate, present: Ex 13.1, 13.2, 13.3</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Mar 30</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Jan 5</cell>
+        <cell><p>13.3 Simple Extensions</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>13.4; Exercises 13.9, 13.12, 13.15, 13.16</p><p>Present: Prop 13.31, 13.32*, 13.33*, 13.35*; Ex 13.17, 13.18*</p><p component="graduate">Graduate, present: Ex 13.11, 13.13*, 13.14</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Apr 1</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
-      </row>
-      <row bottom="major">
-        <cell>Wed, Apr 8</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Jan 7</cell>
+        <cell><p>13.4 Algebraic Extensions</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>14.1, <section-mark/><nbsp/>14.2; Exercises 13.17, 13.18, 13.19</p><p>Present: Prop 14.1*; Thm 14.6*; Ex 14.1, 14.2*, 14.4, 14.5</p><p component="graduate">Graduate, present: Ex 13.10</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Apr 13</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Jan 12</cell>
+        <cell>
+          <line>14.1 Simple Extensions, Again</line>
+          <line>14.2 Splitting Fields</line>
+        </cell>
+        <cell><p>Read <section-mark/><nbsp/>14.3; Exercises 14.1, 14.2, 14.4, 14.5, 14.6</p><p>Present: Ex 14.7, 14.8, 14.10*, 14.11*</p><p component="graduate">Graduate, present: Ex 7.12, 14.3*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Apr 15</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Jan 14</cell>
+        <cell>
+          <line>14.2 Splitting Fields (continued)</line>
+          <line>14.3 Normal Extensions</line>
+        </cell>
+        <cell><p>Exercises 14.7, 14.8, 14.10, 14.11</p><p component="graduate">Graduate, present: Ex 14.9</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Apr 20</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Jan 19</cell>
+        <cell><p>Review for the Midterm Exam</p></cell>
+        <cell></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Apr 22</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Jan 21</cell>
+        <cell><p><alert>Midterm Exam</alert> (<section-mark/><nbsp/>6.1<ndash/>7.2, 12.1, 13.1<ndash/>14.3).</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>14.4</p><p>Present: Prop 14.21*, 14.23; Ex 14.12, 14.13, 14.15, 14.16*</p></cell>
+      </row>
+    </tabular>
+  </table>
+  <table xml:id="schedule-table-2">
+    <title>Weekly Schedule, continued</title>
+    <tabular width="100%" halign="left" valign="top" top="minor">
+      <col width="17%"/>
+      <col width="38%"/>
+      <col width="45%"/>
+      <row header="yes" bottom="medium">
+        <cell>Date</cell>
+        <cell>Topic</cell>
+        <cell>Homework</cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, Apr 27</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Jan 26</cell>
+        <cell><p>14.4 Separable Extensions; and Simple Extensions Once Again</p></cell>
+        <cell><p>Exercises 14.12, 14.13, 14.14, 14.15, 14.16</p><p>Present: Cor 14.29*; Ex 14.22*, 14.23*, 14.24</p><p component="graduate">Graduate, present: Ex 14.17*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, Apr 29</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Jan 28</cell>
+        <cell><p>14.4 Separable Extensions; and Simple Extensions Once Again (continued)</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>14.5; Exercises 14.22, 14.23, 14.24</p><p>Present: Cor 14.35*; Prop 14.36*; Ex 14.18, 14.20, 14.21, 14.27</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, May 4</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Feb 2</cell>
+        <cell><p>14.5 Application: Finite Fields (if time permits)</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>15.1; Exercises 14.20, 14.21, 14.27, 14.28</p><p>Present: Lem 15.4; Prop 15.5, 15.6; Cor 15.7*, 15.8; Ex 15.3*</p><p component="graduate">Graduate, present: Ex 14.19, 14.25, 14.26, 14.29*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, May 6</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Feb 4</cell>
+        <cell><p>15.1 Galois Groups and Galois Extensions</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>15.2; Exercises 15.3, 15.4</p><p>Present: Ex 15.2; Lem 15.18, 15.19*, 15.20; Ex 15.6*</p><p component="graduate">Graduate, present: Ex 15.1</p></cell>
+      </row>
+      <row bottom="major">
+        <cell>Thu, Feb 11</cell>
+        <cell><p>15.2 Characterization of Galois Extensions</p></cell>
+        <cell><p>Read <section-mark/><nbsp/>15.3; Exercises 15.2, 15.6, 15.7</p><p>Present: Prop 15.24*, 15.28; Thm 15.31*; Ex 15.8, 15.10*</p><p component="graduate">Graduate, present: Ex 15.5*, 15.21*</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, May 11</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Feb 16</cell>
+        <cell>
+          <line>15.2 Characterization of Galois Extensions (continued)</line>
+          <line>15.3 The Fundamental Theorem of Galois Theory</line>
+        </cell>
+        <cell><p>Exercises 15.8, 15.10, 15.11</p><p>Present: Prop 15.34*; Ex 15.11, 15.12, 15.14*</p><p component="graduate">Graduate, present: Ex 15.9, 15.22*</p></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, May 13</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Feb 18</cell>
+        <cell><p>15.3 The Fundamental Theorem of Galois Theory (continued)</p></cell>
+        <cell><p>Exercises 15.12, 15.13, 15.14</p><p component="graduate">Graduate, present: Ex 15.18*; the case <m>\eta = e^{2\pi i/17}</m> of Ex 15.13*</p></cell>
       </row>
       <row bottom="minor">
-        <cell>Mon, May 18</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Tue, Feb 23</cell>
+        <cell><p>TBA</p></cell>
+        <cell></cell>
       </row>
       <row bottom="major">
-        <cell>Wed, May 20</cell>
-        <cell><p>Material</p></cell>
-        <cell><p>Homework</p></cell>
+        <cell>Thu, Feb 25</cell>
+        <cell><p>Review for the Final Exam</p></cell>
+        <cell></cell>
+      </row>
+      <row bottom="major">
+        <cell>Tue, Mar 2</cell>
+        <cell><p><alert>Final Exam</alert> (cumulative).</p></cell>
+        <cell></cell>
       </row>
     </tabular>
   </table>
