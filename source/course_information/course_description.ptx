@@ -2,6 +2,14 @@
 <subsection xml:id="course_description" label="course_description" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Course Description</title>
   <p>
-    Course description goes here
+    This course is a continuation of MATH 4083, and it will utilize the rings and groups developed there to study fields and their extensions.
+  </p>
+  <p>
+    We first return to rings, where we study prime and maximal ideals, principal ideal domains, and polynomial rings with coefficients in a field, since quotients of these polynomial rings are the means by which we construct new fields from old ones.
+    We then study field extensions in detail, including algebraic extensions, splitting fields, and normal and separable extensions.
+  </p>
+  <p>
+    The course culminates in the Fundamental Theorem of Galois Theory, which states that the intermediate fields of a Galois extension correspond to the subgroups of its Galois group, so that questions about fields and polynomials may be translated into questions about finite groups.
+    As in MATH 4083, an equally important goal of this course is to improve students' ability to read and write mathematical proofs.
   </p>
 </subsection>

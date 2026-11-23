@@ -2,6 +2,31 @@
 <subsection xml:id="course_topics" label="course_topics" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Course Topics</title>
   <p>
-    Course topics go here.
+    This course can be divided into three parts; a week-by-week plan is available in the <xref ref="schedule" text="title"/>.
+    <dl>
+      <li>
+	<title>Rings and Groups, Revisited</title>
+	<p>
+	  We study prime and maximal ideals, which are characterized by their quotients being integral domains and fields, respectively.
+	  We then consider some classes of <q>nice</q> rings (<eg/> Euclidean domains, principal ideal domains, fields of fractions) and show that the polynomial ring with coefficients in a field is a principal ideal domain.
+	  We also prove Lagrange's Theorem on the orders of subgroups of a finite group, together with the fact that every finite subgroup of the multiplicative group of a field is cyclic.
+	</p>
+      </li>
+      <li>
+	<title>Field Extensions</title>
+	<p>
+	  We study a field together with a larger field containing it, measuring the size of the larger field by its dimension as a vector space over the smaller one.
+	  We construct extensions by adjoining roots of polynomials, and we study the extensions in which a polynomial factors completely (<term>splitting fields</term>), as well as the special classes of <term>normal</term> and <term>separable</term> extensions.
+	  Depending on time and interest, we may also classify the finite fields.
+	</p>
+      </li>
+      <li>
+	<title>Galois Theory</title>
+	<p>
+	  We associate to each field extension the group of its <q>structure preserving</q> bijections that fix the smaller field, called its <term>Galois group</term>.
+	  We characterize the extensions for which this group is as large as possible, and we prove the Fundamental Theorem of Galois Theory, which describes the intermediate fields of such an extension in terms of the subgroups of its Galois group.
+	</p>
+      </li>
+    </dl>
   </p>
 </subsection>
