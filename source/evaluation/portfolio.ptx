@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsection xml:id="portfolio" label="portfolio">
+  <title>Proof Portfolio</title>
+  <p>
+    The proof portfolio is a collection of written proofs that you revise until they are correct and complete.
+    Only the problems that you present in class may be submitted for your portfolio.
+  </p>
+
+  <p>
+    Presentation problems are labeled as either Tier 1 or Tier 2.
+    Tier 1 problems are those whose proofs follow closely from unpacking definitions and earlier results, together with computations, while Tier 2 problems require a more substantial idea.
+    In the <xref ref="schedule" text="title"/>, Tier 2 problems are marked with an asterisk.
+  </p>
+
+  <p>
+    The number of Satisfactory items required for full credit, and how many of them must be Tier 2, will be announced by the census date, Monday, December 14, once enrollment is settled.
+    Since the class time available for presentations is fixed, the number of presentations that each student can give depends on the number of students in the course.
+    For this reason, the requirement is set so that each student needs roughly half of the presentations that they can expect to give over the quarter, with about half of the required items being Tier 2.
+    For example, with four students, the requirement would be 10 items, at least 5 of which are Tier 2.
+  </p>
+
+  <p component="graduate">
+    Graduate students present only the graduate presentation problems listed in the <xref ref="schedule" text="title"/>, and their requirement is set in the same way from those problems.
+    If there are not enough graduate presentation problems for every graduate student to meet the requirement, I may also assign graduate students the presentation problems for undergraduates.
+  </p>
+
+  <p>
+    Your portfolio score is the number of your Satisfactory items divided by the number required, up to a maximum of 100%.
+    If you do not meet the Tier 2 requirement, your portfolio score will be at most 80%.
+  </p>
+
+  <p>
+    A submission is marked Satisfactory if, apart from minor slips, it meets all of the following criteria.
+    <ul>
+      <li>The statement is copied correctly, and its hypotheses and conclusion are identified.</li>
+      <li>The framework of the proof is visible, in the sense that it is clear what is assumed and what is being concluded.</li>
+      <li>Every step is justified by a definition, by an earlier result cited by number, or by a computation that is shown.</li>
+      <li>The argument is complete, with no missing cases.</li>
+      <li>The proof is written in complete sentences that a classmate could follow.</li>
+    </ul>
+    Otherwise, the submission is marked Not Yet and returned with comments identifying which of these criteria are not met.
+  </p>
+
+  <p>
+    Portfolio items are submitted according to the following rules.
+    <ul>
+      <li>Each item is submitted as a separate assignment on Canvas, either typed or neatly handwritten and scanned, and must identify the problem, its tier, and the date on which you presented it.</li>
+      <li>The first version of an item is due one week after you present it.</li>
+      <li>Each revision is due one week after the previous version is returned, or on Tuesday, March 2, if that is earlier, and each item may be revised at most twice, after which it may no longer be submitted.</li>
+      <li>You may submit at most three new items per week.</li>
+      <li>Deadlines are suspended during the Christmas holiday.</li>
+      <li>Problems presented on February 16 or February 18 are due on Tuesday, February 23, and these submissions will be returned by Thursday, February 25.</li>
+      <li>New items will not be accepted after Tuesday, February 23, and revisions will not be accepted after Tuesday, March 2.</li>
+    </ul>
+  </p>
+
+  <p>
+    Portfolio items must be written in your own words.
+    I may ask you to explain any item in your portfolio, either in class or in office hours, and an item that you cannot explain will be returned to Not Yet.
+  </p>
+</subsection>

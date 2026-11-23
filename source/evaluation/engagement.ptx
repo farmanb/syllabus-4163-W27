@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <subsection xml:id="engagement" label="engagement" component="engagement">
-  <title>Participation and Engagement</title>
+  <title>Preparation and Presentations</title>
   <p>
-    Active participation is essential for success in this course.
-    Students are expected to attend all classes, contribute to discussions, and engage in collaborative activities.
-    This includes asking questions, sharing insights, and working effectively during in-class exercises or group work.
-  </p>
-  <p>
-    Constructive engagement allows students to deepen their understanding of the material, learn from their peers, and build essential problem-solving and communication skills that will be valuable in future coursework and careers.
+    This course is structured around student presentations of proofs.
+    Before each class meeting, you should read the assigned sections and attempt the presentation problems for that meeting, which are listed in the <xref ref="schedule" text="title"/>.
+    Beginning with the second class meeting, you must complete a short check-in on Canvas by 8:00 <init>PM</init> on the evening before each class meeting, indicating for each presentation problem whether you are ready to present it, have a partial attempt, or have not attempted it.
   </p>
 
-  <p component="graduate">
-    Graduate students will take on leadership roles during team-based projects, mentoring undergraduate teammates, facilitating collaboration, and managing project milestones.
-    This experience is designed to enhance both their understanding of the material and their ability to communicate and guide others effectively, which are essential skills for advanced study and professional growth.
+  <p>
+    I will use the check-ins to assign the presentation problems, and I will post the assignments at the beginning of class.
+    Problems are assigned first to the students who have presented the fewest times, so that presentations are distributed evenly over the quarter.
+    Two students may exchange their assigned problems at the beginning of class if both agree.
+  </p>
+
+  <p>
+    A presentation should begin with the statement of the problem and the framework of the proof, that is, what is assumed and what must be shown, before turning to the argument itself.
+    A presentation does not need to be correct or complete to receive credit, and a careful account of where an attempt became stuck is a valuable contribution to the class.
+    While a classmate presents, you are expected to ask questions, to identify steps that require justification, and to be prepared to explain any line of the argument when asked.
+  </p>
+
+  <p>
+    For each class meeting, you will receive full preparation credit if you complete the check-in on time and make a prepared attempt at any problem assigned to you.
+    Your two lowest preparation scores will be dropped to account for illness, travel, and other unforeseen circumstances.
   </p>
 </subsection>

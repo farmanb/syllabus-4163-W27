@@ -13,20 +13,20 @@
 	<cell>Weight</cell>
       </row>
       <row>
-	<cell>Homework</cell>
-	<cell>30%</cell>
+	<cell>Preparation and Presentations</cell>
+	<cell>15%</cell>
       </row>
       <row>
-	<cell>Exam 1 </cell>
-	<cell>20%</cell>
+	<cell>Proof Portfolio</cell>
+	<cell>35%</cell>
       </row>
       <row>
-	<cell>Exam 2 </cell>
-	<cell>20%</cell>
+	<cell>Midterm Exam</cell>
+	<cell>25%</cell>
       </row>
       <row>
 	<cell>Final Exam</cell>
-	<cell>30%</cell>
+	<cell>25%</cell>
       </row>
     </tabular>
   </assemblage>

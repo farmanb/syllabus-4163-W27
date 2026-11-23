@@ -3,14 +3,15 @@
   <title>Homework</title>
   <p>
     Homework assignments are a critical component of the course.
-    They are designed to reinforce the concepts covered in lectures and provide hands-on experience.
-    Assignments will include a mix of logical proofs, programming tasks, and conceptual exercises.
-    Solutions must be submitted on time and will be graded for clarity and correctness.
-    Collaboration is encouraged, but each student must submit their own work.
+    They are designed to reinforce the concepts covered in lectures and to give you practice writing careful mathematical arguments.
+    Homework is neither collected nor graded directly.
+    However, the presentation problems for each class meeting are drawn from the assigned reading and homework, and your written proofs of these problems form your <xref ref="portfolio" text="title"/>.
+    Collaboration is encouraged, but you should be able to reproduce every solution on your own.
   </p>
 
   <p component="graduate">
-    In addition to the core problems assigned to all students, graduate students will tackle advanced exercises that require a deeper understanding of the material and the ability to explore alternative approaches.
+    In addition to the problems assigned to all students, graduate students will be assigned advanced exercises as their presentation problems, in place of those for undergraduates, and these are listed separately in the <xref ref="schedule" text="title"/>.
+    These exercises require a deeper understanding of the material and the ability to explore alternative approaches.
   </p>
   
   <p>

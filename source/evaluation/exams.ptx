@@ -2,8 +2,8 @@
 <subsection xml:id="exams" label="exams" component="exams">
   <title>Exams</title>
   <p>
-    There will be two in-class exams and a cumulative final exam.
-    The in-class exams will be given during the regular class meeting time in our usual classroom.
+    There will be a midterm exam and a cumulative final exam.
+    Both exams will be given during the regular class meeting time in our usual classroom.
     The exams are scheduled as follows:
   </p>
 
@@ -14,12 +14,8 @@
 	<cell>Date</cell>
       </row>
       <row>
-	<cell>Exam 1</cell>
+	<cell>Midterm Exam</cell>
 	<cell><custom ref="exam1"/>, <custom ref="year"/></cell>
-      </row>
-      <row>
-	<cell>Exam 2</cell>
-	<cell><custom ref="exam2"/>, <custom ref="year"/></cell>
       </row>
       <row>
 	<cell>Final Exam</cell>
