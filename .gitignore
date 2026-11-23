@@ -105,3 +105,10 @@ venv/
 
 # Don't track editor backup files (Emacs, Vim, etc.)
 *~
+
+# Registrar calendar used for planning; not part of the syllabus
+assets/academic_calendar.ics
+
+# Local symlinks for planning (outline lives in the private teaching repo; the book is copyrighted)
+outline.org
+aluffi_algebra-notes-from-the-underground.pdf
